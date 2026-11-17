@@ -1,0 +1,3 @@
+{
+  "/v1/exercise_templates?page=1&pageSize=100": { "status": 401, "body": { "error": "Invalid api key" } }
+}

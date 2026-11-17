@@ -1,0 +1,11 @@
+{
+  "/oauth/token": [
+    { "status": 200, "file": "../strava/token-exchange-expired.json" },
+    { "status": 200, "file": "../strava/token-refresh.json" }
+  ],
+  "/api/v3/activities/16012345678": {
+    "status": 200,
+    "file": "../strava/activity-long-run.json",
+    "authorization": "Bearer new0access0token00000000000000000000000"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "page": 1,
+  "page_count": 2,
+  "workouts": [
+    {
+      "id": "f575f97e-001e-4ac3-8699-7a750e3a75b7",
+      "title": "Upper Body A",
+      "routine_id": "4134b865-d4ab-493d-b1fb-43a33a4ed350",
+      "description": "Felt strong",
+      "start_time": "2026-10-09T22:27:32+00:00",
+      "end_time": "2026-10-10T00:01:13+00:00",
+      "updated_at": "2026-10-10T00:01:19.163Z",
+      "created_at": "2026-10-10T00:01:19.163Z",
+      "exercises": [
+        {
+          "index": 0,
+          "title": "Machine Chest Press",
+          "notes": "Seat 3",
+          "exercise_template_id": "29036bf8-6e5b-484a-acc3-ad8a25f62d6b",
+          "superset_id": null,
+          "sets": [
+            { "index": 0, "type": "warmup", "weight_kg": 61.23504277381137, "reps": 10, "distance_meters": null, "duration_seconds": null, "rpe": null, "custom_metric": null },
+            { "index": 1, "type": "normal", "weight_kg": 81.64672369841516, "reps": 11, "distance_meters": null, "duration_seconds": null, "rpe": null, "custom_metric": null },
+            { "index": 2, "type": "failure", "weight_kg": 81.64672369841516, "reps": 9, "distance_meters": null, "duration_seconds": null, "rpe": 10, "custom_metric": null },
+            { "index": 3, "type": "dropset", "weight_kg": 58.96707822663317, "reps": 8, "distance_meters": null, "duration_seconds": null, "rpe": null, "custom_metric": null }
+          ]
+        },
+        {
+          "index": 1, "title": "Face Pull", "notes": "", "exercise_template_id": "BE640BA0", "superset_id": 0,
+          "sets": [ { "index": 0, "type": "normal", "weight_kg": 40.82336184920758, "reps": 16, "distance_meters": null, "duration_seconds": null, "rpe": null, "custom_metric": null } ]
+        },
+        {
+          "index": 2, "title": "Lateral Raise (Machine)", "notes": null, "exercise_template_id": "D5D0354D", "superset_id": 0,
+          "sets": [ { "index": 0, "type": "normal", "weight_kg": 56.245520770019326, "reps": 12, "distance_meters": null, "duration_seconds": null, "rpe": null, "custom_metric": null } ]
+        }
+      ]
+    }
+  ]
+}

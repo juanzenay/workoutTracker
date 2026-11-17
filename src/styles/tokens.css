@@ -1,0 +1,136 @@
+/*
+ * Design tokens. Components use the Tailwind utilities generated from these
+ * (bg-surface, text-muted, rounded-card, font-body, ...) — never raw colours.
+ *
+ * Axes, all set on <html>:
+ *   data-theme = light | dark        (absent = follow the OS)
+ *   data-skin  = standard | dumb     (Dumb Mode overrides visual tokens only;
+ *                                     spacing/sizing tokens must stay identical
+ *                                     so layout and touch targets never change)
+ */
+
+:root {
+  /* Sizing — shared by every theme and skin. */
+  --touch-min: 44px;
+  --touch-lg: 56px;
+  --radius-card: 14px;
+  --radius-control: 10px;
+
+  /* Typography */
+  --font-body: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-numeric: ui-monospace, "SF Mono", Menlo, monospace;
+
+  /* Light theme colours */
+  --bg: #f7f7f5;
+  --surface: #ffffff;
+  --surface-raised: #efefec;
+  --border: #e2e2dd;
+  /* Form-control outlines and focus: must stay at least 3:1 against surface and bg (WCAG 1.4.11). */
+  --border-strong: #85857f;
+  --fg: #1a1a18;
+  --muted: #6b6b66;
+  /* Neon orange. Fills and chart marks only; text in the accent hue uses --accent-text (4.5:1). */
+  --accent: #ff5f1f;
+  --accent-fg: #1a1a18;
+  --accent-text: #b83a0a;
+  --focus: #b83a0a;
+  --danger: #c43c2b;
+  --success: #2f8f4e;
+  --success-text: #23773f;
+  /* Sequential "heat" ramp (one hue, faint → strong) for magnitude, e.g. the muscle heatmap. */
+  --heat-1: #ffd5c2;
+  --heat-2: #ffa77f;
+  --heat-3: #ff6a2b;
+  --heat-4: #b83a0a;
+  color-scheme: light;
+
+  /* Decorative page background (none outside Dumb Mode). */
+  --clipart-image: none;
+  --clipart-position: 0 0;
+  --clipart-size: auto;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f0f10;
+    --surface: #18181a;
+    --surface-raised: #232326;
+    --border: #2e2e32;
+    --border-strong: #707076;
+    --fg: #f2f2ef;
+    --muted: #9a9a94;
+    --accent: #ff6a2b;
+    --accent-fg: #111111;
+    --accent-text: #ff7a40;
+    --focus: #ff7a40;
+    --danger: #ef6a58;
+    --success: #4cc276;
+    --success-text: #4cc276;
+    --heat-1: #4a1f10;
+    --heat-2: #8a3410;
+    --heat-3: #e5531a;
+    --heat-4: #ffa477;
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #0f0f10;
+  --surface: #18181a;
+  --surface-raised: #232326;
+  --border: #2e2e32;
+  --border-strong: #707076;
+  --fg: #f2f2ef;
+  --muted: #9a9a94;
+  --accent: #ff6a2b;
+  --accent-fg: #111111;
+  --accent-text: #ff7a40;
+  --focus: #ff7a40;
+  --danger: #ef6a58;
+  --success: #4cc276;
+  --success-text: #4cc276;
+  --heat-1: #4a1f10;
+  --heat-2: #8a3410;
+  --heat-3: #e5531a;
+  --heat-4: #ffa477;
+  color-scheme: dark;
+}
+
+/*
+ * Dumb Mode (#28): Comic Sans, the MS Paint palette and clip-art, in light and dark alike.
+ * Visual tokens only. Never touch --touch-*, spacing, font sizes or line heights here: layout and
+ * touch targets must stay identical (tests/e2e/dumb-mode.spec.ts compares them on key screens).
+ * Clip-art is drawn for light (public/images/dumb/), shown as page background so it never takes
+ * up space, and precached by the service worker for offline use.
+ */
+:root[data-skin="dumb"],
+:root[data-skin="dumb"][data-theme] {
+  --font-body: "Comic Sans MS", "Comic Sans", "Chalkboard SE", "Comic Neue", cursive;
+  --font-numeric: "Comic Sans MS", "Comic Sans", "Chalkboard SE", "Comic Neue", cursive;
+  --radius-card: 0px;
+  --radius-control: 0px;
+
+  --bg: #c0c0c0;
+  --surface: #ffffff;
+  --surface-raised: #ffff00;
+  --border: #000000;
+  --fg: #000000;
+  --muted: #800080;
+  --accent: #00ff00;
+  --accent-fg: #000000;
+  --accent-text: #00ff00;
+  --focus: #000000;
+  --border-strong: #000000;
+  --danger: #ff0000;
+  --success: #008000;
+  --success-text: #008000;
+  --heat-1: #ffff00;
+  --heat-2: #ff8000;
+  --heat-3: #ff0000;
+  --heat-4: #800000;
+  color-scheme: light;
+
+  --clipart-image: url("/images/dumb/star.svg"), url("/images/dumb/dumbbell.svg"), url("/images/dumb/sun.svg");
+  --clipart-position: right 12px top 72px, left 8px bottom 12px, right 8px bottom 12px;
+  --clipart-size: 64px 64px, 96px 48px, 56px 56px;
+}

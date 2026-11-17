@@ -1,0 +1,216 @@
+{
+  "count": 2,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 294,
+      "uuid": "0e3b2c5c-8a73-4c1a-9a5e-5f2c43d1b1aa",
+      "created": "2022-03-01T10:00:00+01:00",
+      "last_update": "2024-02-11T09:12:44.120000+01:00",
+      "last_update_global": "2024-02-11T09:12:44.120000+01:00",
+      "category": {
+        "id": 9,
+        "name": "Legs"
+      },
+      "muscles": [
+        {
+          "id": 8,
+          "name": "Gluteus maximus",
+          "name_en": "Glutes",
+          "is_front": false,
+          "image_url_main": "/static/images/muscles/main/muscle-8.svg",
+          "image_url_secondary": "/static/images/muscles/secondary/muscle-8.svg"
+        }
+      ],
+      "muscles_secondary": [
+        {
+          "id": 11,
+          "name": "Biceps femoris",
+          "name_en": "Hamstrings",
+          "is_front": false,
+          "image_url_main": "/static/images/muscles/main/muscle-11.svg",
+          "image_url_secondary": "/static/images/muscles/secondary/muscle-11.svg"
+        },
+        {
+          "id": 10,
+          "name": "Quadriceps femoris",
+          "name_en": "Quads",
+          "is_front": true,
+          "image_url_main": "/static/images/muscles/main/muscle-10.svg",
+          "image_url_secondary": "/static/images/muscles/secondary/muscle-10.svg"
+        }
+      ],
+      "equipment": [
+        {
+          "id": 8,
+          "name": "Bench"
+        },
+        {
+          "id": 1,
+          "name": "Barbell"
+        }
+      ],
+      "license": {
+        "id": 2,
+        "full_name": "Creative Commons Attribution Share Alike 4",
+        "short_name": "CC-BY-SA 4",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+      },
+      "license_author": "Grumpy Lifter",
+      "images": [
+        {
+          "id": 512,
+          "uuid": "6f1d5a0e-2b8c-4f0a-8f3e-1d2c3b4a5e6f",
+          "exercise": 294,
+          "exercise_uuid": "0e3b2c5c-8a73-4c1a-9a5e-5f2c43d1b1aa",
+          "image": "https://wger.de/media/exercise-images/294/Hip-thrust-1.png",
+          "thumbnails": null,
+          "is_main": true,
+          "style": "1",
+          "license": 2,
+          "license_title": "",
+          "license_object_url": "",
+          "license_author": "Everkinetic",
+          "license_author_url": "",
+          "license_derivative_source_url": ""
+        }
+      ],
+      "translations": [
+        {
+          "id": 1840,
+          "uuid": "d4c5f6a7-1b2c-4d3e-8f9a-0b1c2d3e4f50",
+          "name": "Hüftheben mit Langhantel",
+          "exercise": 294,
+          "description": "<p>Deutsch</p>",
+          "description_source": null,
+          "created": "2022-03-01T10:00:00+01:00",
+          "language": 1,
+          "aliases": [],
+          "notes": [],
+          "license": 2,
+          "license_title": "",
+          "license_object_url": "",
+          "license_author": "Grumpy Lifter",
+          "license_author_url": "",
+          "license_derivative_source_url": "",
+          "author_history": [
+            "Grumpy Lifter"
+          ]
+        },
+        {
+          "id": 1841,
+          "uuid": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d",
+          "name": "Hip Thrust",
+          "exercise": 294,
+          "description": "<p>Sit on the floor with your upper back against a bench &amp; a barbell over your hips.</p>\n<ol><li>Drive through your heels and lift your hips.</li><li>Squeeze your glutes at the top, then lower.</li></ol>",
+          "description_source": null,
+          "created": "2022-03-01T10:00:00+01:00",
+          "language": 2,
+          "aliases": [
+            {
+              "id": 31,
+              "uuid": "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e",
+              "alias": "Barbell glute bridge"
+            }
+          ],
+          "notes": [],
+          "license": 2,
+          "license_title": "",
+          "license_object_url": "",
+          "license_author": "Grumpy Lifter",
+          "license_author_url": "",
+          "license_derivative_source_url": "",
+          "author_history": [
+            "Grumpy Lifter"
+          ]
+        }
+      ],
+      "variation_group": null,
+      "videos": [],
+      "author_history": [
+        "Grumpy Lifter"
+      ],
+      "total_authors_history": [
+        "Grumpy Lifter",
+        "Everkinetic"
+      ]
+    },
+    {
+      "id": 1203,
+      "uuid": "7c9e6679-7425-40de-944b-e07fc1f90ae7",
+      "created": "2023-05-20T18:30:00+02:00",
+      "last_update": "2023-05-20T18:30:00+02:00",
+      "last_update_global": "2023-05-20T18:30:00+02:00",
+      "category": {
+        "id": 9,
+        "name": "Legs"
+      },
+      "muscles": [
+        {
+          "id": 8,
+          "name": "Gluteus maximus",
+          "name_en": "Glutes",
+          "is_front": false,
+          "image_url_main": "/static/images/muscles/main/muscle-8.svg",
+          "image_url_secondary": "/static/images/muscles/secondary/muscle-8.svg"
+        }
+      ],
+      "muscles_secondary": [
+        {
+          "id": 11,
+          "name": "Biceps femoris",
+          "name_en": "Hamstrings",
+          "is_front": false,
+          "image_url_main": "/static/images/muscles/main/muscle-11.svg",
+          "image_url_secondary": "/static/images/muscles/secondary/muscle-11.svg"
+        }
+      ],
+      "equipment": [
+        {
+          "id": 7,
+          "name": "none (bodyweight exercise)"
+        }
+      ],
+      "license": {
+        "id": 1,
+        "full_name": "Creative Commons Attribution Share Alike 3",
+        "short_name": "CC-BY-SA 3",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
+      },
+      "license_author": "jsmith",
+      "images": [],
+      "translations": [
+        {
+          "id": 3301,
+          "uuid": "3f2504e0-4f89-41d3-9a0c-0305e82c3301",
+          "name": "Single Leg Hip Thrust",
+          "exercise": 1203,
+          "description": "<p>Like a hip thrust, on one leg.</p>",
+          "description_source": null,
+          "created": "2022-03-01T10:00:00+01:00",
+          "language": 2,
+          "aliases": [],
+          "notes": [],
+          "license": 2,
+          "license_title": "",
+          "license_object_url": "",
+          "license_author": "jsmith",
+          "license_author_url": "",
+          "license_derivative_source_url": "",
+          "author_history": [
+            "jsmith"
+          ]
+        }
+      ],
+      "variation_group": null,
+      "videos": [],
+      "author_history": [
+        "jsmith"
+      ],
+      "total_authors_history": [
+        "jsmith"
+      ]
+    }
+  ]
+}

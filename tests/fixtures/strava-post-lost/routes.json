@@ -1,0 +1,8 @@
+{
+  "/oauth/token": { "status": 200, "file": "../strava/token-exchange.json" },
+  "/api/v3/activities": { "status": 201, "body": "<html><body>502 Bad Gateway</body></html>" },
+  "/api/v3/athlete/activities?after=1791356400&before=1791529200&per_page=100": {
+    "status": 200,
+    "file": "athlete-activities.json"
+  }
+}

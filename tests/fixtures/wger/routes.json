@@ -1,0 +1,8 @@
+{
+  "/api/v2/exerciseinfo/?name__search=hip+thrust&language__code=en&limit=20": { "status": 200, "file": "search-hip-thrust.json" },
+  "/api/v2/exerciseinfo/?name__search=xyzzy&language__code=en&limit=20": { "status": 200, "file": "search-xyzzy.json" },
+  "/api/v2/exerciseinfo/294/": { "status": 200, "file": "exerciseinfo-294.json" },
+  "/api/v2/exerciseinfo/1203/": { "status": 200, "file": "exerciseinfo-1203.json" },
+  "/api/v2/exerciseinfo/999999/": { "status": 404, "body": { "detail": "No Exercise matches the given query." } },
+  "/api/v2/exerciseinfo/?name__search=server+down&language__code=en&limit=20": { "status": 503, "body": "Service Unavailable" }
+}

@@ -1,0 +1,8 @@
+{
+  "/v1/exercise_templates?page=1&pageSize=100": { "status": 200, "file": "../hevy/exercise-templates.json" },
+  "/v1/workouts?page=1&pageSize=10": { "status": 200, "file": "workouts-1.json" },
+  "/v1/workouts?page=2&pageSize=10": { "status": 200, "file": "../hevy/workouts-2.json" },
+  "/v1/routine_folders?page=1&pageSize=10": { "status": 200, "file": "routine-folders.json" },
+  "/v1/routines?page=1&pageSize=10": { "status": 200, "file": "routines-1.json" },
+  "/v1/body_measurements?page=1&pageSize=10": { "status": 200, "file": "body-measurements-1.json" }
+}

@@ -1,0 +1,57 @@
+{
+  "/oauth/token": {
+    "status": 200,
+    "file": "token-exchange.json"
+  },
+  "/oauth/deauthorize": {
+    "status": 200,
+    "body": {
+      "access_token": "a4b945687g1234aaaa5555bbbb6666cccc7777dd"
+    }
+  },
+  "/api/v3/activities/16012345678": {
+    "status": 200,
+    "file": "activity-long-run.json"
+  },
+  "/api/v3/activities/16012345679": [
+    {
+      "status": 200,
+      "file": "activity-short-easy.json"
+    },
+    {
+      "status": 200,
+      "file": "activity-short-easy-now-walk.json"
+    }
+  ],
+  "/api/v3/activities/16012345680": {
+    "status": 200,
+    "file": "activity-weight-training.json"
+  },
+  "/api/v3/activities": {
+    "status": 201,
+    "file": "activity-created-weight-training.json"
+  },
+  "/api/v3/activities/16099999999": {
+    "status": 404,
+    "body": {
+      "message": "Record Not Found",
+      "errors": [
+        {
+          "resource": "Activity",
+          "field": "id",
+          "code": "invalid"
+        }
+      ]
+    }
+  },
+  "/api/v3/push_subscriptions?client_id=12345&client_secret=test-client-secret": {
+    "status": 200,
+    "body": []
+  },
+  "/api/v3/push_subscriptions": {
+    "status": 201,
+    "body": {
+      "id": 298765
+    }
+  }
+}

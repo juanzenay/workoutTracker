@@ -1,0 +1,21 @@
+# Supabase CLI project config. Only non-default settings are listed.
+# Migrations: supabase/migrations (applied in filename order).
+project_id = "workout-tracker"
+
+[auth]
+# Workout tracker is single-user: the first sign-up (the claim form on /sign-in, or Supabase dashboard
+# → Authentication → Add user) becomes the owner. The owner_lock and owner_claim migrations
+# refuse every other account, and anyone but OWNER_EMAIL when the deploy set one.
+enable_signup = true
+
+[auth.email]
+# The claim form's confirmation link lands on /auth/confirm.
+enable_confirmations = true
+
+# The coach connector (MCP, /api/mcp): Supabase Auth is the OAuth 2.1 server. Claude registers itself
+# (dynamic client registration) and the owner approves on workout tracker's /oauth/consent page. Hosted projects:
+# Dashboard → Authentication → OAuth Server (same settings). Access tokens must use asymmetric JWT signing keys.
+[auth.oauth_server]
+enabled = true
+authorization_url_path = "/oauth/consent"
+allow_dynamic_registration = true

@@ -1,0 +1,72 @@
+@import "tailwindcss";
+@import "../styles/tokens.css";
+
+/* Expose design tokens as Tailwind utilities (bg-bg, bg-surface, text-muted, border-border, ...). */
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-raised: var(--surface-raised);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-fg: var(--accent-fg);
+  --color-accent-text: var(--accent-text);
+  --color-focus: var(--focus);
+  --color-danger: var(--danger);
+  --color-success: var(--success);
+  --color-success-text: var(--success-text);
+  --color-heat-1: var(--heat-1);
+  --color-heat-2: var(--heat-2);
+  --color-heat-3: var(--heat-3);
+  --color-heat-4: var(--heat-4);
+  --radius-card: var(--radius-card);
+  --radius-control: var(--radius-control);
+  --spacing-touch: var(--touch-min);
+  --spacing-touch-lg: var(--touch-lg);
+  --font-body: var(--font-body);
+  --font-numeric: var(--font-numeric);
+}
+
+html {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-body);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  min-height: 100dvh;
+  /* Installed to the home screen the app draws under the iOS status bar (viewportFit: cover). */
+  padding-top: env(safe-area-inset-top);
+  background: var(--bg);
+  /* Clip-art (Dumb Mode) is background only: it never takes up space or catches taps. */
+  background-image: var(--clipart-image);
+  background-position: var(--clipart-position);
+  background-size: var(--clipart-size);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* One focus indicator for every interactive element (keyboard only). */
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+/* Chips and badges that wrap a visually hidden input show the ring on the label instead. */
+label:has(> input.sr-only:focus-visible),
+label:has(> select.opacity-0:focus-visible) {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+/* Opaque strip behind the status bar, so scrolled content never shows through it. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0 0 auto;
+  height: env(safe-area-inset-top);
+  background: var(--bg);
+  z-index: 50;
+}

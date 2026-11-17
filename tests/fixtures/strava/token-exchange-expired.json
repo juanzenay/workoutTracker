@@ -1,0 +1,8 @@
+{
+  "token_type": "Bearer",
+  "expires_at": 1760220000,
+  "expires_in": 21600,
+  "refresh_token": "old0refresh0token0000000000000000000000",
+  "access_token": "old0access0token00000000000000000000000",
+  "athlete": { "id": 134815, "username": "owner", "resource_state": 2, "firstname": "Sam", "lastname": "Runner" }
+}

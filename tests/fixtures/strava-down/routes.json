@@ -1,0 +1,4 @@
+{
+  "/oauth/token": { "status": 200, "file": "../strava/token-exchange.json" },
+  "/api/v3/activities/16012345678": { "status": 503, "body": "Service Unavailable" }
+}

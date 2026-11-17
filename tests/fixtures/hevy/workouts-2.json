@@ -1,0 +1,45 @@
+{
+  "page": 2,
+  "page_count": 2,
+  "workouts": [
+    {
+      "id": "0b1c7c2e-5d8f-4c3a-9e0a-2f6d4b8a1c11",
+      "title": "Lower Body A",
+      "routine_id": null,
+      "description": null,
+      "start_time": "2026-10-07T17:02:10+00:00",
+      "end_time": "2026-10-07T18:15:44+00:00",
+      "updated_at": "2026-10-07T18:15:50.002Z",
+      "created_at": "2026-10-07T18:15:50.002Z",
+      "exercises": [
+        {
+          "index": 0, "title": "Leg Press (Machine)", "notes": "", "exercise_template_id": "C7973E0E", "supersets_id": null,
+          "sets": [
+            { "index": 0, "type": "normal", "weight_kg": 131.54194373633553, "reps": 12, "distance_meters": null, "duration_seconds": null, "rpe": null, "custom_metric": null },
+            { "index": 1, "type": "normal", "weight_kg": 81.6, "reps": 12, "distance_meters": null, "duration_seconds": null, "rpe": null, "custom_metric": null }
+          ]
+        },
+        {
+          "index": 1, "title": "Leg Extension (Machine)", "notes": "", "exercise_template_id": "75A4F6C4", "supersets_id": 1,
+          "sets": [ { "index": 0, "type": "normal", "weight_kg": 77.11079460405875, "reps": 15, "distance_meters": null, "duration_seconds": null, "rpe": null, "custom_metric": null } ]
+        },
+        {
+          "index": 2, "title": "Bench Press (Barbell)", "notes": "", "exercise_template_id": "79D0BB3A", "supersets_id": 1,
+          "sets": [ { "index": 0, "type": "normal", "weight_kg": 22.67964547178199, "reps": 10, "distance_meters": null, "duration_seconds": null, "rpe": null, "custom_metric": null } ]
+        },
+        {
+          "index": 3, "title": "Pull Up", "notes": "", "exercise_template_id": "1B2B1E7C", "supersets_id": null,
+          "sets": [ { "index": 0, "type": "normal", "weight_kg": null, "reps": 8, "distance_meters": null, "duration_seconds": null, "rpe": null, "custom_metric": null } ]
+        },
+        {
+          "index": 4, "title": "Old Squat Variation", "notes": "", "exercise_template_id": "6a0f2a4e-9e57-4d4b-8d55-0c4c0f5b9e01", "supersets_id": null,
+          "sets": [ { "index": 0, "type": "normal", "weight_kg": 18.14371637742559, "reps": 10, "distance_meters": null, "duration_seconds": null, "rpe": null, "custom_metric": null } ]
+        },
+        {
+          "index": 5, "title": "Lat Pulldown (Cable)", "notes": "", "exercise_template_id": "6A6C31A5", "supersets_id": null,
+          "sets": [ { "index": 0, "type": "normal", "weight_kg": 54.43108993, "reps": 12, "distance_meters": null, "duration_seconds": null, "rpe": null, "custom_metric": null } ]
+        }
+      ]
+    }
+  ]
+}

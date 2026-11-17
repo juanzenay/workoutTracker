@@ -1,0 +1,76 @@
+{
+  "id": 1203,
+  "uuid": "7c9e6679-7425-40de-944b-e07fc1f90ae7",
+  "created": "2023-05-20T18:30:00+02:00",
+  "last_update": "2023-05-20T18:30:00+02:00",
+  "last_update_global": "2023-05-20T18:30:00+02:00",
+  "category": {
+    "id": 9,
+    "name": "Legs"
+  },
+  "muscles": [
+    {
+      "id": 8,
+      "name": "Gluteus maximus",
+      "name_en": "Glutes",
+      "is_front": false,
+      "image_url_main": "/static/images/muscles/main/muscle-8.svg",
+      "image_url_secondary": "/static/images/muscles/secondary/muscle-8.svg"
+    }
+  ],
+  "muscles_secondary": [
+    {
+      "id": 11,
+      "name": "Biceps femoris",
+      "name_en": "Hamstrings",
+      "is_front": false,
+      "image_url_main": "/static/images/muscles/main/muscle-11.svg",
+      "image_url_secondary": "/static/images/muscles/secondary/muscle-11.svg"
+    }
+  ],
+  "equipment": [
+    {
+      "id": 7,
+      "name": "none (bodyweight exercise)"
+    }
+  ],
+  "license": {
+    "id": 1,
+    "full_name": "Creative Commons Attribution Share Alike 3",
+    "short_name": "CC-BY-SA 3",
+    "url": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
+  },
+  "license_author": "jsmith",
+  "images": [],
+  "translations": [
+    {
+      "id": 3301,
+      "uuid": "3f2504e0-4f89-41d3-9a0c-0305e82c3301",
+      "name": "Single Leg Hip Thrust",
+      "exercise": 1203,
+      "description": "<p>Like a hip thrust, on one leg.</p>",
+      "description_source": null,
+      "created": "2022-03-01T10:00:00+01:00",
+      "language": 2,
+      "aliases": [],
+      "notes": [],
+      "license": 2,
+      "license_title": "",
+      "license_object_url": "",
+      "license_author": "jsmith",
+      "license_author_url": "",
+      "license_derivative_source_url": "",
+      "author_history": [
+        "jsmith"
+      ]
+    }
+  ],
+  "variation_group": null,
+  "videos": [],
+  "author_history": [
+    "jsmith"
+  ],
+  "total_authors_history": [
+    "jsmith"
+  ]
+}

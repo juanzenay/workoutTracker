@@ -1,0 +1,15 @@
+{
+  "page": 1,
+  "page_count": 1,
+  "exercise_templates": [
+    { "id": "29036bf8-6e5b-484a-acc3-ad8a25f62d6b", "title": "Machine Chest Press", "type": "weight_reps", "primary_muscle_group": "chest", "secondary_muscle_groups": ["triceps", "shoulders"], "is_custom": true },
+    { "id": "BE640BA0", "title": "Face Pull", "type": "weight_reps", "primary_muscle_group": "shoulders", "secondary_muscle_groups": ["upper_back"], "is_custom": false },
+    { "id": "D5D0354D", "title": "Lateral Raise (Machine)", "type": "weight_reps", "primary_muscle_group": "shoulders", "secondary_muscle_groups": [], "is_custom": false },
+    { "id": "79D0BB3A", "title": "Bench Press (Barbell)", "type": "weight_reps", "primary_muscle_group": "chest", "secondary_muscle_groups": ["triceps", "shoulders"], "is_custom": false },
+    { "id": "6A6C31A5", "title": "Lat Pulldown (Cable)", "type": "weight_reps", "primary_muscle_group": "lats", "secondary_muscle_groups": ["biceps"], "is_custom": false },
+    { "id": "C7973E0E", "title": "Leg Press (Machine)", "type": "weight_reps", "primary_muscle_group": "quadriceps", "secondary_muscle_groups": ["glutes", "hamstrings"], "is_custom": false },
+    { "id": "75A4F6C4", "title": "Leg Extension (Machine)", "type": "weight_reps", "primary_muscle_group": "quadriceps", "secondary_muscle_groups": [], "is_custom": false },
+    { "id": "1B2B1E7C", "title": "Pull Up", "type": "bodyweight_reps", "primary_muscle_group": "lats", "secondary_muscle_groups": ["biceps", "upper_back"], "is_custom": false, "some_new_field": true },
+    { "id": "11A123F3", "title": "Seated Leg Curl (Machine)", "type": "weight_reps", "primary_muscle_group": "hamstrings", "secondary_muscle_groups": [], "is_custom": false }
+  ]
+}

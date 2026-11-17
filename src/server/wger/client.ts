@@ -54,7 +54,7 @@ export interface WgerClient {
 }
 
 export const DEFAULT_WGER_BASE_URL = "https://wger.de";
-const USER_AGENT = "Workout tracker (+https://github.com/juanzenay/workouttracker)";
+const USER_AGENT = "Workout tracker (+https://github.com/juanzenay/workoutTracker)";
 
 export function createWgerClient({
   fetch: fetchImpl = globalThis.fetch,

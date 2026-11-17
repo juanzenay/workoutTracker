@@ -47,6 +47,6 @@ Used by `/wayfinder`. The **map** is a single issue with **child** issues as tic
 
 ## Repo conventions
 
-- Tracker is `juanzenay/workouttracker`. Where the `gh` CLI isn't available (e.g. cloud sessions), use the GitHub MCP tools (`mcp__github__issue_write`, `issue_read`, `sub_issue_write`, `list_issues`) for the same operations.
-- Tickets cut from a parent issue start with a `## Parent` section linking it (`juanzenay/workouttracker#N`), then `## What to build`, `## Acceptance criteria` (checkboxes), and `## Blocked by` (issue refs, or "None (can start immediately)"). Link them as sub-issues of the parent too.
+- Tracker is `juanzenay/workoutTracker`. Where the `gh` CLI isn't available (e.g. cloud sessions), use the GitHub MCP tools (`mcp__github__issue_write`, `issue_read`, `sub_issue_write`, `list_issues`) for the same operations.
+- Tickets cut from a parent issue start with a `## Parent` section linking it (`juanzenay/workoutTracker#N`), then `## What to build`, `## Acceptance criteria` (checkboxes), and `## Blocked by` (issue refs, or "None (can start immediately)"). Link them as sub-issues of the parent too.
 - Tickets that are ready to pick up carry the `ready-for-agent` label.

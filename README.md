@@ -6,7 +6,7 @@ This is a public starting point: copy it, deploy your own, then change anything 
 
 ## Run your own
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fjuanzenay%2Fworkouttracker&project-name=workout-tracker&repository-name=workouttracker&env=OWNER_EMAIL%2CCRON_SECRET&envDescription=OWNER_EMAIL%3A%20the%20email%20you%20will%20claim%20light%20with.%20CRON_SECRET%3A%20any%20long%20random%20string%20%28e.g.%20openssl%20rand%20-hex%2032%29.&envLink=https%3A%2F%2Fgithub.com%2Fjuanzenay%2Fworkouttracker%2Fblob%2Fmain%2Fdocs%2Fsetup.md%231-deploy&stores=%5B%7B%22type%22%3A%22integration%22%2C%22protocol%22%3A%22storage%22%2C%22productSlug%22%3A%22supabase%22%2C%22integrationSlug%22%3A%22supabase%22%7D%5D)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fjuanzenay%2FworkoutTracker&project-name=workout-tracker&repository-name=workout-tracker&env=OWNER_EMAIL%2CCRON_SECRET&envDescription=OWNER_EMAIL%3A%20the%20email%20you%20will%20claim%20light%20with.%20CRON_SECRET%3A%20any%20long%20random%20string%20%28e.g.%20openssl%20rand%20-hex%2032%29.&envLink=https%3A%2F%2Fgithub.com%2Fjuanzenay%2FworkoutTracker%2Fblob%2Fmain%2Fdocs%2Fsetup.md%231-deploy&stores=%5B%7B%22type%22%3A%22integration%22%2C%22protocol%22%3A%22storage%22%2C%22productSlug%22%3A%22supabase%22%2C%22integrationSlug%22%3A%22supabase%22%7D%5D)
 
 The button copies this repository into your GitHub, creates a Vercel project with a Supabase
 database (Vercel's Supabase integration sets the connection variables), applies the migrations
